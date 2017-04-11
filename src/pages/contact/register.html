@@ -1,0 +1,21 @@
+<ion-toolbar color="secondary">
+  <ion-title>
+    用戶註冊
+  </ion-title>
+
+  <ion-buttons start>
+    <button  (click)="dismiss()">
+        <span showWhen="ios">取消</span>
+        <ion-icon name="md-close" showWhen="android,window"></ion-icon>
+    </button>
+  </ion-buttons>
+</ion-toolbar>
+<ion-content>
+  <div showWhen="android">
+    I am visible on Android!
+  </div>
+
+  <div showWhen="ios">
+    I am visible on iOS!
+  </div>
+</ion-content>
