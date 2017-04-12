@@ -7,9 +7,6 @@ import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
-import { Register } from '../pages/contact/register';
-import { ContactDetails } from "../pages/about/contactdetails";
-import { DemoPage } from "../pages/demo/demo";
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -19,9 +16,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     AboutPage,
     ContactPage,
-    Register,
-    ContactDetails,
-    DemoPage,
     HomePage,
     TabsPage
   ],
@@ -34,9 +28,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     AboutPage,
     ContactPage,
-    ContactDetails,
-    DemoPage,
-    Register,
     HomePage,
     TabsPage
   ],
